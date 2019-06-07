@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="import" href="./rect-flowers/index.html">
+  <link rel="import" href="./test-element/index.html">
+  <link rel="import" href="./ui-message/index.html">
+  <link rel="import" href="./ui-slider/index.html">
+</head>
+<body>
+  <div id="root">
+    <button is="btn-timer" id="timer">0</button>
+
+    <test-element>
+      <h1>Boom</h1>
+    </test-element>
+
+    <ui-message class="info">Hello world</ui-message>
+    <ui-message class="warning">Attention</ui-message>
+
+    <ui-slider id="ui-slider-el">0</ui-slider>
+
+    <rect-flowers></rect-flowers>
+  </div>
+
+  <script src="btn-timer/index.js"></script>
+</body>
+</html>
